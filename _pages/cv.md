@@ -40,31 +40,33 @@ Key Laboratory of Digital Manufacturing Equipment and Technology, *Wuhan, Hubei,
 
 - Optimized the Apriltag vision algorithm using C++.
 - Developed a desktop application tracking and displaying the robot's position in real time using Qt, C++, and CSS.
-- Prepared for the 17*^th^* "Challenge Cup" National Competition.
+- Prepared for the 17*th* "Challenge Cup" National Competition.
 
 ## AWARDS & SCHOLARSHIPS
 
-⋄  **First Prize**: 17*^th^* "Challenge Cup" National College Student Curricular Academic Science & Technology Works Competition Apr 2022
+⋄  **First Prize**: 17*th* "Challenge Cup" National College Student Curricular Academic Science & Technology Works Competition, *Apr 2022*
 
-⋄  **Grand Prize**: 13*^th^* Hubei Province "Challenge Cup" College Student Curricular Academic Science & Technology Works Competition May 2021
+⋄  **Grand Prize**: 13*th* Hubei Province "Challenge Cup" College Student Curricular Academic Science & Technology Works Competition, *May 2021*
 
-⋄  **Grand Prize**: 8*^th^* "Qiushi Cup" College Student Academic Science & Technology Works Competition Apr 2021
+⋄  **Grand Prize**: 8*th* "Qiushi Cup" College Student Academic Science & Technology Works Competition, *Apr 2021*
 
-⋄  **First Prize**: 17*^th^* "Mindray Cup" College Student Robot Competition Apr 2021
+⋄  **First Prize**: 17*th* "Mindray Cup" College Student Robot Competition, *Apr 2021*
 
-⋄  School Merit Student Scholarship Oct 2021
+⋄  School Merit Student Scholarship, *Oct 2021*
 
-⋄  School Innovation Scholarship Oct 2022
+⋄  School Innovation Scholarship, *Oct 2022*
 
-⋄  National Hisense Scholarship May 2022
+⋄  National Hisense Scholarship, *May 2022*
 
-⋄  National Huawei's "Smart Base" Scholarship May 2022 ⋄ School Freshman Excellence Scholarship Apr 2021
+⋄  National Huawei's "Smart Base" Scholarship, *May 2022*
 
-⋄  School Freshman Self-improvement Scholarship Apr 2021
+⋄  School Freshman Excellence Scholarship, *Apr 2021*
+
+⋄  School Freshman Self-improvement Scholarship, *Apr 2021*
 
 ## PUBLICATIONS
 
-**Lasagne: Exploring More Profitable Opportunities in Blockchain**              Revised
+**Lasagne: Exploring More Profitable Opportunities in Blockchain** *(Revised)*
 
 ## SOCIETY MEMBERSHIPS
 
@@ -78,7 +80,7 @@ Key Laboratory of Digital Manufacturing Equipment and Technology, *Wuhan, Hubei,
 - Leader, *Oct 2020 - Present*
 - Daily organization and management of the team.
 - Led projects about amphibious robots and the web.
-- Led the Preparation for the 17*^th^* "Challenge Cup" National Competition.
+- Led the Preparation for the 17*th* "Challenge Cup" National Competition.
 
 **Team STAR**, Hubei, China
 
@@ -91,4 +93,5 @@ Key Laboratory of Digital Manufacturing Equipment and Technology, *Wuhan, Hubei,
 - Organized large-scale conferences and cultural and sports activities.
 - Coordinated the work of departments of the committee.
 - Volunteer activities including Campus Health Maintenance and Hometown cleaning.
-- Social practice activities including high-school presentations and the "Three Rural Areas" Social Practice, gaining the prize of **School Excellent Practice Individual** in July 2021.
+- Social practice activities including high-school presentations and the "Three Rural Areas" Social Practice.
+- Gained the prize of **School Excellent Practice Individual** in July 2021.
