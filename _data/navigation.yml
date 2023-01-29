@@ -6,17 +6,18 @@ main:
   # - title: "Talks"
   #   url: /talks/    
 
-  - title: "Teaching"
-    url: /teaching/    
+  # - title: "Teaching"
+  #   url: /teaching/    
     
   # - title: "Portfolio"
   #   url: /portfolio/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
     
-  - title: "CV"
+  - title: "curriculum vitae"
     url: /cv/
     
-  - title: "Guide"
-    url: /markdown/
+  - title: "blog posts"
+    url: https://rookiedong.gitbook.io/notes/
+    # url: /year-archive/
+  
+  # - title: "Guide"
+  #   url: /markdown/
