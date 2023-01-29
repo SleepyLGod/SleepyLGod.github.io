@@ -87,7 +87,7 @@ Key Laboratory of Digital Manufacturing Equipment and Technology, *Wuhan, Hubei,
 - Member, *Sep 2021 - Present*
 - Research on databases and distributed key-value storage.
 
-**Organization Department of the School Youth Committee**, Hubei, China
+**`<font face="Times new Roman">`Organization Department of the School Youth Committee**, Hubei, China `</font>`
 
 - Assistant of the Comprehensive Management Office, *Oct 2020 - Oct 2021*
 - Organized large-scale conferences and cultural and sports activities.
