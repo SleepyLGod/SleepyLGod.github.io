@@ -83,7 +83,7 @@ author:
   name             : "Haodong Lu"
   avatar           : "dong.jpg" #"ProfilePicturePhoto.png"
   bio              : "Stay hungry. Stay foolish."
-  location         : "HuBei, China"
+  location         : "Berkeley, CA" # "HuBei, China"
   employer         :
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   # googlescholar    : "http://yourfullgooglescholarurl.com"
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : https://www.linkedin.com/in/von-lu/
   # orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
@@ -113,7 +113,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          :
+  youtube          : 
   wikipedia        :
 
 
