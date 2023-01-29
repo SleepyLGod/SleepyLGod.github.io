@@ -9,7 +9,6 @@ author_profile: true
 - Revised
 
 
-```markdown
 <div style="display:none">
 
 {% if author.googlescholar %}
@@ -23,4 +22,3 @@ author_profile: true
 {% endfor %}
 
 </div>
-```

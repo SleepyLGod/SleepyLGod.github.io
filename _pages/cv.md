@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -8,7 +8,7 @@ redirect_from:
 ---
 {% include base_path %}
 
-# EDUCATION
+## EDUCATION
 
 **Huazhong University of Science and Technology**, Hubei, China
 
@@ -16,7 +16,7 @@ redirect_from:
 
 ⋄  **Cumulative GPA:** 3.85 / 4.00
 
-# EXPERIENCE
+## EXPERIENCE
 
 **Intern Student**,  Jun 2022 - Present
 
@@ -42,7 +42,7 @@ Key Laboratory of Digital Manufacturing Equipment and Technology, *Wuhan, Hubei,
 - Developed a desktop application tracking and displaying the robot's position in real time using Qt, C++, and CSS.
 - Prepared for the 17*^th^* "Challenge Cup" National Competition.
 
-# AWARDS & SCHOLARSHIPS
+## AWARDS & SCHOLARSHIPS
 
 ⋄  **First Prize**: 17*^th^* "Challenge Cup" National College Student Curricular Academic Science & Technology Works Competition Apr 2022
 
@@ -62,11 +62,11 @@ Key Laboratory of Digital Manufacturing Equipment and Technology, *Wuhan, Hubei,
 
 ⋄  School Freshman Self-improvement Scholarship Apr 2021
 
-# PUBLICATIONS
+## PUBLICATIONS
 
 **Lasagne: Exploring More Profitable Opportunities in Blockchain**              Revised
 
-# SOCIETY MEMBERSHIPS
+## SOCIETY MEMBERSHIPS
 
 **Team Dian**, Hubei, China
 
