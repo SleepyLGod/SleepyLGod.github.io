@@ -10,6 +10,8 @@ redirect_from:
 ---
 {% include base_path %}
 
+</div>
+
 ## EDUCATION
 
 **Huazhong University of Science and Technology**, Hubei, China
@@ -97,5 +99,3 @@ Key Laboratory of Digital Manufacturing Equipment and Technology, *Wuhan, Hubei,
 - Volunteer activities including Campus Health Maintenance and Hometown cleaning.
 - Social practice activities including high-school presentations and the "Three Rural Areas" Social Practice.
 - Gained the prize of **School Excellent Practice Individual** in July 2021.
-
-</div>
