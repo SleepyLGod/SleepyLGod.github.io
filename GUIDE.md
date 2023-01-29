@@ -1,6 +1,57 @@
+# [**Introduction link**](https://zhenggao.io/blog/2019/12/10/Jekyll-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/ "blog"): 👈
+
+# TODO:
+
+```markdown
+<!-- in _includes/footer/custom.html -->
+
+<!-- in _pages/sitemap.md -->
+
+# Finish it!!!!!!!!!!!!
+
+<!-- in _pages/publication.md -->
 
 
-**[Introduction link](https://zhenggao.io/blog/2019/12/10/Jekyll-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/ "blog")**: 👈
+<!-- in _pages/cv.md -->
+
+#PUBLICATIONS
+
+<ul>{% for post in site.publications %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+# Skills
+
+* Skill 1
+* Skill 2
+  * Sub-skill 2.1
+  * Sub-skill 2.2
+  * Sub-skill 2.3
+* Skill 3
+
+# Publications
+
+  <ul>{% for post in site.publications %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+# Talks
+
+  <ul>{% for post in site.talks %}
+    {% include archive-single-talk-cv.html %}
+  {% endfor %}</ul>
+
+# Teaching
+
+  <ul>{% for post in site.teaching %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+# Service and leadership
+
+* Currently signed in to 43 different slack teams
+
+```
 
 A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
 
