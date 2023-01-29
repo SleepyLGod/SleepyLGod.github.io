@@ -13,6 +13,7 @@
 
 
 <!-- in _pages/cv.md -->
+<!-- 想要网页版不要下载版，就注释掉cv.html，把cv.md上的注释取消 -->
 
 ---
 layout: archive
