@@ -11,9 +11,9 @@ Hi, I am Haodong. Great pleasure to see you.
 
 **C**urrently, I'm an undergraduate student at the Huazhong University of Science and Technology (HUST) majoring in Computer Science. Some of my personal experiences are shown in my [resume](https://sleepylgod.github.io/cv/). **M**y research interest is ranging from key-value storage, databases, distributed systems, high performance computing, and any other approach to greatly improve the performance and structure of the software underlying. Also, domains including blockchain, web3, and web development are also what I fancy greatly.
 
-Free feel to reach out to me via email!
+Free feel to reach out to me via [email](mailto:haodong.lu.me@gmail.com)!
 
-### Something More About Me
+### **Something More About Me**
 
 **"S**tay hungry, stay foolish". This is my favorite sentence from the back cover of "Whole Earth Catalog". Well, we Chinese people emphasize "Ren Ding Sheng Tian", which means that we have the power to change the world. "Stay hungry", in my current opinion,  means not being complacent about the status quo and constantly striving to improve ourselves, our team, and the world. Then "stay foolish" shows the strength to stick to our original aspiration and keep working hard for our dreams. "Go on struggling, and go on dream-chasing", this is my explanation of the sentence now.
 
