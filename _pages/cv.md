@@ -1,13 +1,17 @@
 <div style="display:none">
 
 ---
+
 layout: archive
 title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
-  - /resume
+
+- /resume
+
 ---
+
 {% include base_path %}
 
 </div>
@@ -18,33 +22,57 @@ redirect_from:
 
 **⋄**  **B.S. in Computer Science**, expected July 2024 2020 - Present
 
-**⋄**  **Cumulative GPA:** 3.85 / 4.00
+**⋄**  **Cumulative GPA:** 3.87 / 4.00
+
+**University of California, Berkeley**, Berkeley, CA, USA
+
+**⋄**  **Exchange Program Study**, Jan 2023 - Jun 2023
+
+**⋄**  **Cumulative GPA:** 4.00 / 4.00
 
 ## EXPERIENCE
 
-**Intern Student**,  Jun 2022 - Present
+**Research Assistant**,  Oct 2023 - Present
+
+Big Data \& System Team, Key Laboratory of Service Computing and Systems Ministry of Education & Amp, Huazhong Uni. of Science & Tech., *Wuhan, Hubei, China*
+
+- Co-leading the research of "RPAttention", an optimization of KVCache memory management policy for LLM.
+- Exploring more optimizations of the operation of LLM based on compilation techniques.
+
+**Research Assistant**,  May 2023 - Aug 2023
+
+Database Group, University of Wisconsin–Madison., *Madison, WI, USA (Hybrid)*
+
+- Re-implemented the main part of the tile-based lightweight integer compression in GPU with the optimization.
+- Explored more efficient bit-packing compression and optimization techniques in the context of GPU.
+
+**Research Assistant**,  Jun 2022 - Present
 
 Distributed Systems Team, Key Laboratory of Service Computing and Systems Ministry of Education & Amp, Huazhong Uni. of Science & Tech., *Wuhan, Hubei, China*
 
 - Co-led the research of extending the sandwich arbitrage strategy to a "Lasagne" strategy.
 - Carried out several experiments to achieve substantial optimization of arbitrage speed and accuracy.
-- Developed an arbitrage system for the "Lasagne" strategy using Node.js, TypeScript, Go, and solidity.
+- Developed an efficient arbitrage system for the "Lasagne" strategy and the related paper.
 - Led a "XETH" project: An open-source platform for Ethereum data intelligence analysis and management.
 
-**Intern Student**,  Jan 2022 - Feb 2022 & Jul 2022 - Present
+**Research Assistant**,  Jan 2022 - Feb 2022 & Jul 2022 - Present
 
-PDSL team, Wuhan photoelectric national research center parallel data storage laboratory, *Wuhan, Hubei, China*
+PDSL team, PingCAP Inc. \& The Wuhan National Lab for Optoelectronics., *Wuhan, Hubei, China*
 
-- Participated in the Talent Plan of PingCAP company and completed the tinykv project.
-- Joined the DPU-KV group to do some research on offloading distributed applications to the DPU.
+- Participated in the Talent Plan of PingCAP Inc. and completed the TinyKV project.
+- Co-Realized offloading the compaction operation of LSM-tree to the DPU hardware accelerators based on RocksDB.
+- Implement a simple RDMA-based RPC and co-developed a lightweight client-server file system running separately on DPU and CPU.
+- Contributed to the paper "DComp: Efficient Offload of LSM-tree Compaction with Data Processing Units".
+- Exploring more efficient and smarter Offload of Compaction with AI (RL \& LLM) and new hardware.
 
-**Intern Student**,  Oct 2020 - Nov 2021
+**Research Assistant**,  Oct 2020 - Nov 2021
 
 Key Laboratory of Digital Manufacturing Equipment and Technology, *Wuhan, Hubei, China*
 
-- Optimized the Apriltag vision algorithm using C++.
-- Developed a desktop application tracking and displaying the robot's position in real time using Qt, C++, and CSS.
-- Prepared for the 17th "Challenge Cup" National Competition.
+- Co-developed an adsorption mobile processing robot system for large-scale aircraft variable-curvature skin.
+- Co-invented a perception-fused prosthetic hand, responsible for developing perceptual acquisition modules and perceptual feedback modules.
+- Developed desktop and web applications tracking and displaying robots' real-time position.
+- Eliminated accumulated errors using AprilTags visual fiducial system, thus achieving centimeter-level positioning.
 
 ## AWARDS & SCHOLARSHIPS
 
