@@ -4,6 +4,9 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+
+> Last updated time: 30/12/2023 
+
 **Lasagne: Exploring More Profitable Opportunities in Blockchain**
 
 - Revised
