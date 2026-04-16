@@ -7,17 +7,18 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Dong / Home"
+title                    : "LU HAODONG"
+masthead_title           : "A thing of beauty is a joy for ever."
 title_separator          : "-"
-name                     : &name "Haodong Lu"
-description              : &description "personal description"
-url                      : https://sleepylgod.github.io/ # https://sleepylgod.github.io/  OR  http://localhost:4000/  the base hostname & protocol for your site 
+name                     : &name "LU HAODONG"
+description              : &description "PhD student working on LLM inference infrastructure, agentic systems, and related database and data processing problems."
+url                      : https://sleepylgod.github.io # https://sleepylgod.github.io  OR  http://localhost:4000/  the base hostname & protocol for your site 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "SleepyLGod/SleepyLGod.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
-future                   : true
+future                   : false
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
@@ -73,20 +74,22 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : false # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
 
 
 # Site Author
 author:
-  name             : "Haodong Lu"
-  avatar           : "dong.jpg" #"ProfilePicturePhoto.png"
-  bio              : "Stay hungry. Stay foolish."
-  location         : "Berkeley, CA" # "HuBei, China"
+  name             : "LU HAODONG"
+  name_zh          : "路昊東"
+  avatar           : "profile-photo.jpg" #"ProfilePicturePhoto.png"
+  bio              : "PhD Student | Software Engineer | LLM Systems, Agentic AI Systems, OLAP DBMS Enthusiast"
+  location         : "Hong Kong SAR"
   employer         :
+  blog             : "https://rookiedong.gitbook.io/notes/"
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  # googlescholar    : "http://yourfullgooglescholarurl.com"
+  googlescholar    :
   email            : "haodong.lu.me@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -121,29 +124,38 @@ author:
 include:
   - .htaccess
   - _pages
-  - files
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
+  - _archive
   - .bundle
   - .jekyll-assets-cache
   - .sass-cache
   - CHANGELOG
+  - CHANGELOG.md
   - Capfile
+  - CONTRIBUTING.md
   - Gemfile
   - Gruntfile.js
+  - GUIDE.md
   - LICENSE
   - README
+  - README.md
   - Rakefile
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
   - config
+  - files
   - gulpfile.js
   - log
+  - markdown_generator
   - node_modules
   - package.json
+  - talkmap
+  - talkmap.ipynb
+  - talkmap.py
   - tmp
   - vendor
 keep_files:

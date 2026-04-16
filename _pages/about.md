@@ -1,20 +1,32 @@
 ---
 permalink: /
-title: "About Haodong"
-excerpt: "About me"
+title: "Biography"
+seo_title: "LU HAODONG"
+excerpt: "PhD student working on LLM inference infrastructure, agentic systems, and related database and data processing problems."
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-Hi, this Haodong (Von). Great pleasure to see you.
+<div class="home-page" markdown="1">
 
-**I** am an MPhil student in Computer Science and Engineering Department of the Chinese University of Hong Kong, supervised by Prof. [Eric Lo](https://www.cse.cuhk.edu.hk/~ericlo/). My focus is on LLMSys, DBMS, and K-V Storage. Plus, I'm keen on cutting-edge fields like Blockchain and Web development.
+I am a PhD student in the Department of Computer Science and Engineering at the Chinese University of Hong Kong, advised by Prof. [Eric Lo](https://www.cse.cuhk.edu.hk/~ericlo/). My research centers on LLM systems, with a primary focus on inference infrastructure and agentic systems, and with related interests in databases and data processing. Before CUHK, I received my bachelor's degree from Huazhong University of Science and Technology (HUST) and spent time in EECS, University of California, Berkeley as an exchange student.
 
-Free feel to reach out to me via [email](mailto:haodong.lu.me@gmail.com)!
+### Beyond Research
 
-### **Something More**
+Beyond research, I am drawn to things that reward patience and refinement. Music has long been one of them: I enjoy listening, singing, and spending time with the piano, erhu, bamboo flute, guitar, and a few other instruments. It remains, for me, both a quiet discipline and a lasting source of joy.
 
-**I** am an extreme perfectionist, sticking to something continuously if I think it's meaningful. Chasing something graceful and powerful will always be my goal, regardless of the difficulty.
+## CV
 
-**A**dditionally, I crazily enjoy music. I love listening to and creating "delicious" melodies, no matter the type. I am addicted to singing as well as playing some instruments including the electronic piano, the erhu, the bamboo flute, and the guitar. They are always excellent ways to express stress and pursue happiness.
+CV synced date: 2024-07-25
+
+- [HTML version]({{ "/cv-html/" | relative_url }})
+- [PDF download]({{ "/res/cv-pdf.pdf" | relative_url }})
+
+## Publications
+
+> Last updated: 2023-05-30
+
+**Lasagne: Exploring More Profitable Opportunities in Blockchain** (Revised)
+
+</div>

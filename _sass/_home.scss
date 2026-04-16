@@ -1,0 +1,76 @@
+/* ==========================================================================
+   Home
+   ========================================================================== */
+
+.page__title {
+  margin-bottom: 0.5em;
+  color: #1f2933;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.home-page {
+  max-width: 42rem;
+}
+
+.home-page p:first-of-type {
+  margin-bottom: 1.1em;
+  color: #253342;
+  font-size: 1.05em;
+  line-height: 1.8;
+}
+
+.page__content h2,
+.page__content h3 {
+  margin-top: 1.7em;
+  color: #1f2933;
+  letter-spacing: 0;
+}
+
+.page__content ul {
+  margin-bottom: 1.1em;
+}
+
+.home-page em,
+.home-page i {
+  font-style: normal;
+}
+
+.home-page blockquote,
+.home-page blockquote cite {
+  font-style: normal;
+}
+
+.sidebar .author__name {
+  margin-bottom: 0.2em;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.author__name-zh {
+  margin: 0 0 0.8em;
+  color: #6b7280;
+  font-size: 0.78em;
+  letter-spacing: 0.08em;
+}
+
+.masthead__menu-item--lg {
+  letter-spacing: 0.04em;
+}
+
+.masthead__menu-item--lg a {
+  font-family: "Petit Formal Script", cursive;
+  font-size: 1.15rem;
+  letter-spacing: 0;
+  line-height: 1.4;
+  white-space: normal;
+}
+
+.author__bio {
+  color: #4b5563;
+  line-height: 1.65;
+}
+
+.author__urls li {
+  line-height: 1.7;
+}
