@@ -1,23 +1,2 @@
 # main links links
-main:
-  - title: "publications"
-    url: /publications/
-
-  # - title: "Talks"
-  #   url: /talks/    
-
-  # - title: "Teaching"
-  #   url: /teaching/    
-    
-  # - title: "Portfolio"
-  #   url: /portfolio/
-    
-  - title: "curriculum vitae"
-    url: /cv/
-    
-  - title: "blog posts"
-    url: https://rookiedong.gitbook.io/notes/
-    # url: /year-archive/
-  
-  # - title: "Guide"
-  #   url: /markdown/
+main: []
