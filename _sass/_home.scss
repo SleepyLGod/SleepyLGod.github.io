@@ -31,6 +31,25 @@
   margin-bottom: 1.1em;
 }
 
+.home-page__links {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin: 0.35rem 0 1.15rem;
+  color: #6b7280;
+  font-size: 0.98rem;
+}
+
+.home-page__links a {
+  color: #52606d;
+  text-decoration: none;
+}
+
+.home-page__links a:hover {
+  color: #253342;
+  text-decoration: underline;
+}
+
 .home-page em,
 .home-page i {
   font-style: normal;

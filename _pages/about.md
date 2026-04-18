@@ -20,13 +20,18 @@ Beyond research, I am drawn to things that reward patience and refinement. Music
 
 CV synced date: 2024-07-25
 
-- [HTML version]({{ "/cv-html/" | relative_url }})
-- [PDF download]({{ "/res/cv-pdf.pdf" | relative_url }})
+<p class="home-page__links">
+  <a href="{{ "/cv-html/" | relative_url }}">HTML version</a>
+  <span aria-hidden="true">·</span>
+  <a href="{{ "/res/cv-pdf.pdf" | relative_url }}">PDF download</a>
+</p>
 
 ## Publications
 
 > Last updated: 2023-05-30
 
-**Lasagne: Exploring More Profitable Opportunities in Blockchain** (Revised)
+<!-- **Lasagne: Exploring More Profitable Opportunities in Blockchain** (Revised) -->
+
+Publication list to be updated.
 
 </div>
