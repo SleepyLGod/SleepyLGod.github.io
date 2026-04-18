@@ -28,10 +28,8 @@ CV synced date: 2024-07-25
 
 ## Publications
 
-> Last updated: 2023-05-30
-
 <!-- **Lasagne: Exploring More Profitable Opportunities in Blockchain** (Revised) -->
 
-Publication list to be updated.
+Publication list status updated: 2023-05-30
 
 </div>
