@@ -32,4 +32,14 @@ CV synced date: 2024-07-25
 
 Publication list status updated: 2023-05-30
 
+## Teaching
+
+Teaching Assistant, The Chinese University of Hong Kong
+
+- **AIST4020**: Agentic AI and LLM Serving (Fall 2026)
+- **CSCI3250**: Computers and Society (Spring 2026)
+- **CSCI3170**: Introduction to Database Systems (Fall 2025, Fall 2024)
+- **CSCI3150**: Introduction to Operating Systems (Spring 2025)
+- **CMSC5735**: Advanced Topics in Cloud Computing (Spring 2025)
+
 </div>
