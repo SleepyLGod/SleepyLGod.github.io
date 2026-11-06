@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Home
+   Site overrides: page content, homepage links, sidebar, and masthead
    ========================================================================== */
 
 .page__title {
@@ -35,9 +35,7 @@
   display: flex;
   align-items: center;
   gap: 0.55rem;
-  margin: 0.35rem 0 1.15rem;
   color: #6b7280;
-  font-size: 0.98rem;
 }
 
 .home-page__links a {
@@ -69,7 +67,6 @@
 .author__name-zh {
   margin: 0 0 0.8em;
   color: #6b7280;
-  font-size: 0.78em;
   letter-spacing: 0.08em;
 }
 
@@ -87,7 +84,6 @@
 
 .author__bio {
   color: #4b5563;
-  line-height: 1.65;
 }
 
 .author__urls li {

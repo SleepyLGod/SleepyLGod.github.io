@@ -14,12 +14,12 @@ $indent-var                 : 1.3em;
 
 /* system typefaces */
 $serif                      : "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, "New York", "Times New Roman", serif;
-$sans-serif                 : $serif;
+$site-font-family          : $serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
-/* sans serif typefaces */
-$sans-serif-narrow          : $sans-serif;
-$helvetica                  : $sans-serif;
+/* site typography roles */
+$site-narrow-font-family   : $site-font-family;
+$site-ui-font-family       : $site-font-family;
 
 /* serif typefaces */
 $georgia                    : Georgia, serif;
@@ -28,9 +28,9 @@ $bodoni                     : "Bodoni MT", serif;
 $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
-$global-font-family         : $sans-serif;
-$header-font-family         : $sans-serif;
-$caption-font-family        : $sans-serif;
+$global-font-family         : $site-font-family;
+$header-font-family         : $site-font-family;
+$caption-font-family        : $site-font-family;
 
 /* type scale */
 $type-size-1                : 2.441em;  // ~39.056px

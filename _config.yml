@@ -153,6 +153,7 @@ exclude:
   - markdown_generator
   - node_modules
   - package.json
+  - package-lock.json
   - talkmap
   - talkmap.ipynb
   - talkmap.py
