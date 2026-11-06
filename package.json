@@ -21,7 +21,7 @@
     "node": ">= 0.10.0"
   },
   "devDependencies": {
-    "onchange": "2.2.0",
+    "onchange": "7.1.0",
     "uglify-js": "2.6.1"
   },
   "scripts": {
