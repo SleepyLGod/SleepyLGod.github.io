@@ -2,7 +2,7 @@
 permalink: /
 title: "Biography"
 seo_title: "LU HAODONG"
-excerpt: "PhD student working on LLM inference infrastructure, agentic systems, and related database and data processing problems."
+excerpt: "PhD student working on agentic AI systems, semantic data processing, and LLM infrastructure."
 author_profile: true
 redirect_from: 
   - /about/
@@ -10,7 +10,11 @@ redirect_from:
 ---
 <div class="home-page" markdown="1">
 
-I am a PhD student in the Department of Computer Science and Engineering at the Chinese University of Hong Kong, advised by Prof. [Eric Lo](https://www.cse.cuhk.edu.hk/~ericlo/). My research centers on LLM systems, with a primary focus on inference infrastructure and agentic systems, and with related interests in databases and data processing. Before CUHK, I received my bachelor's degree from Huazhong University of Science and Technology (HUST) and spent time in EECS, University of California, Berkeley as an exchange student.
+I am a PhD student in the Department of Computer Science and Engineering at the Chinese University of Hong Kong, advised by Prof. [Eric Lo](https://www.cse.cuhk.edu.hk/~ericlo/).
+
+My research focuses on agentic AI systems, particularly building accurate and efficient semantic data processing systems, and on LLM infrastructure, including session-aware scheduling and KV cache management for agentic workloads.
+
+Before CUHK, I received my bachelor's degree from Huazhong University of Science and Technology (HUST) and was an exchange student in the Department of Electrical Engineering and Computer Sciences (EECS) at the University of California, Berkeley.
 
 ### Beyond Research
 
@@ -18,19 +22,18 @@ Beyond research, I am drawn to things that reward patience and refinement. Music
 
 ## CV
 
-CV synced date: 2024-07-25
-
 <p class="home-page__links">
   <a href="{{ "/cv-html/" | relative_url }}">HTML version</a>
   <span aria-hidden="true">·</span>
   <a href="{{ "/res/cv-pdf.pdf" | relative_url }}">PDF download</a>
+  <small class="home-page__sync-date">[synced date: <time datetime="2025-08-25">2025-08-25</time>]</small>
 </p>
 
 ## Publications
 
 <!-- **Lasagne: Exploring More Profitable Opportunities in Blockchain** (Revised) -->
 
-Publication list status updated: 2023-05-30
+synced date: 2025-08-25
 
 ## Teaching
 

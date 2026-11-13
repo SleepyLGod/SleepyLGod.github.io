@@ -33,9 +33,15 @@
 
 .home-page__links {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 0.55rem;
   color: #6b7280;
+}
+
+.home-page__sync-date {
+  font-size: 0.8em;
+  white-space: nowrap;
 }
 
 .home-page__links a {
