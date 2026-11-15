@@ -12,7 +12,7 @@ redirect_from:
 
 I am a PhD student in the Department of Computer Science and Engineering at the Chinese University of Hong Kong, advised by Prof. [Eric Lo](https://www.cse.cuhk.edu.hk/~ericlo/).
 
-My research focuses on agentic AI systems, particularly building accurate and efficient semantic data processing systems, and on LLM infrastructure, including session-aware scheduling and KV cache management for agentic workloads.
+My current research focuses on **agentic AI systems**, with an emphasis on enabling reliable semantic data processing at scale. I also work on **LLM infrastructure**, particularly agent-aware serving through scheduling and KV cache management.
 
 Before CUHK, I received my bachelor's degree from Huazhong University of Science and Technology (HUST) and was an exchange student in the Department of Electrical Engineering and Computer Sciences (EECS) at the University of California, Berkeley.
 
