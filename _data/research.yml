@@ -25,8 +25,8 @@
     dispatch. Session-state management was merged upstream; the scheduling prototype
     remains an internal exploration.
   links:
-    - label: Merged contribution
-      url: https://github.com/vllm-project/aibrix/pull/1353
+    - label: Code
+      url: https://github.com/vllm-project/aibrix
 
 - title: "SDServe: Pipelined Agent Workflows"
   image: /images/research/sdserve.png

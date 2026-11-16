@@ -26,7 +26,6 @@ Beyond research, I am drawn to things that reward patience and refinement. Music
   <a href="{{ "/cv-html/" | relative_url }}">HTML version</a>
   <span aria-hidden="true">·</span>
   <a href="{{ "/res/cv-pdf.pdf" | relative_url }}">PDF download</a>
-  <small class="home-page__sync-date">[synced date: <time datetime="2025-08-25">2025-08-25</time>]</small>
 </p>
 
 ## Research Projects
