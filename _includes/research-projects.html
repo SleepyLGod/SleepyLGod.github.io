@@ -1,0 +1,17 @@
+<div class="research-projects">
+  {% for project in site.data.research %}
+  <article class="research-project">
+    <a class="research-project__figure image-popup" href="{{ project.image | relative_url }}" aria-label="View full-size figure for {{ project.title | escape }}">
+      <img src="{{ project.image | relative_url }}" alt="{{ project.alt | escape }}" width="{{ project.width }}" height="{{ project.height }}" loading="lazy" decoding="async">
+    </a>
+    <div class="research-project__body">
+      <h3>{{ project.title | escape }}</h3>
+      <p class="research-project__status">{{ project.status | escape }}</p>
+      <p class="research-project__description">{{ project.description | escape }}</p>
+      <div class="research-project__links">
+        {% for link in project.links %}<a href="{{ link.url | escape }}">{{ link.label | escape }}</a>{% unless forloop.last %}<span aria-hidden="true"> · </span>{% endunless %}{% endfor %}
+      </div>
+    </div>
+  </article>
+  {% endfor %}
+</div>

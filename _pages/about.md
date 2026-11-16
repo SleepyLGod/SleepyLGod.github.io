@@ -29,11 +29,11 @@ Beyond research, I am drawn to things that reward patience and refinement. Music
   <small class="home-page__sync-date">[synced date: <time datetime="2025-08-25">2025-08-25</time>]</small>
 </p>
 
-## Publications
+## Research Projects
 
 <!-- **Lasagne: Exploring More Profitable Opportunities in Blockchain** (Revised) -->
 
-synced date: 2025-08-25
+{% include research-projects.html %}
 
 ## Teaching
 

@@ -54,6 +54,60 @@
   text-decoration: underline;
 }
 
+.research-projects {
+  display: grid;
+  gap: 1.8rem;
+}
+
+.research-project {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0.85rem;
+  align-items: start;
+
+  @media (min-width: 640px) {
+    grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+    gap: 1.2rem;
+  }
+}
+
+.research-project__figure {
+  display: block;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.research-project__body {
+  min-width: 0;
+
+  h3 {
+    margin: 0 0 0.35em;
+    font-size: 1em;
+    line-height: 1.4;
+  }
+
+  p.research-project__status {
+    margin: 0 0 0.65em;
+    color: #6b7280;
+    font-size: 0.8em;
+    line-height: 1.5;
+  }
+
+  p.research-project__description {
+    margin: 0 0 0.55em;
+    font-size: 0.9em;
+    line-height: 1.6;
+  }
+}
+
+.research-project__links {
+  font-size: 0.85em;
+}
+
 .home-page em,
 .home-page i {
   font-style: normal;

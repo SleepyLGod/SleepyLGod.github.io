@@ -1,0 +1,59 @@
+- title: "Agent Memory: Declarative Memory Maintenance"
+  image: /images/research/agent-memory.svg
+  width: 907
+  height: 401
+  alt: "Agent memory as a semantic view: mapping a memory update pipeline to a declarative view over messages."
+  status: "Under review at VLDB 2027"
+  description: >-
+    A declarative framework that treats long-horizon agent memory as materialized
+    semantic views over interactions. It automatically derives incremental semantic
+    queries for memory maintenance from user-defined views, separating what agents
+    retain from how their memories are maintained and the computation is optimized.
+  links:
+    - label: Code
+      url: https://github.com/SleepyLGod/agent-memory
+
+- title: "AIBrix: Session-Aware LLM Serving"
+  image: /images/research/aibrix.png
+  width: 1672
+  height: 941
+  alt: "Session tracking in an AIBrix gateway pod and experimental capacity-aware dispatch to vLLM inference pods in Kubernetes."
+  status: "Upstream contribution / Experimental scheduling"
+  description: >-
+    Developed session tracking and prototyped pull-based scheduling for agentic
+    workloads in AIBrix, combining session-level priorities with capacity-aware
+    dispatch. Session-state management was merged upstream; the scheduling prototype
+    remains an internal exploration.
+  links:
+    - label: Merged contribution
+      url: https://github.com/vllm-project/aibrix/pull/1353
+
+- title: "SDServe: Pipelined Agent Workflows"
+  image: /images/research/sdserve.png
+  width: 1672
+  height: 941
+  alt: "Sequential versus pipelined execution of two dependent agent requests, overlapping upstream decoding with downstream incremental prefill."
+  status: "Research prototype / On hold"
+  description: >-
+    Explored overlapping upstream decoding with downstream prefill in dependent
+    LLM calls. The vLLM-based prototype accepts incremental prompt input, allowing
+    downstream computation to begin before upstream generation completes.
+  links:
+    - label: Code
+      url: https://github.com/cuhk-systems/vllm-sd
+
+- title: "PrediServe: Prediction-Guided LLM Scheduling"
+  image: /images/research/prediserve.png
+  width: 2428
+  height: 922
+  alt: "PrediServe architecture: length predictors guide request ordering and batch construction, with feedback from model execution."
+  status: "Research prototype / Predictor code available"
+  description: >-
+    Explored preemptive LLM scheduling guided by remaining-generation-length
+    predictions. The predictor combines model hidden states with decoding
+    parameters to account for variation across generation settings.
+  links:
+    - label: Predictor code
+      url: https://github.com/SleepyLGod/eos-predictor
+    - label: Slides
+      url: https://docs.google.com/presentation/d/1ZdbNUkRmB3eaSdBI6hx5UJVDnNEjj55q5EkeoZMWrmI/edit?usp=sharing
