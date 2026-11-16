@@ -111,6 +111,17 @@ sitemap: false
             margin: 0.25rem 0;
         }
 
+        .cv-project-description {
+            padding-left: 1em;
+            text-indent: -1em;
+        }
+
+        .cv-project-description > span {
+            display: inline-block;
+            width: 1em;
+            text-indent: 0;
+        }
+
         a {
             color: var(--cv-accent);
             text-decoration: none;
@@ -193,6 +204,17 @@ sitemap: false
     <p class="style1"><strong>University of California, Berkeley</strong>, Berkeley, CA, USA</p>
     <p class="style1"><strong>⋄</strong> <strong>Exchange Student, Electrical Engineering and Computer Sciences (EECS)</strong><span class="cv-date"><em>Jan 2023 - Jun 2023</em></span></p>
     <p class="style1"><strong>⋄</strong> <strong>Cumulative GPA:</strong> 4.00 / 4.00</p>
+    <h2 id='selected-research-projects'>
+        <p class="style2">SELECTED RESEARCH PROJECTS</p>
+    </h2>
+    <p class="style1"><strong>Declarative Long-Horizon Agent Memory Maintenance</strong><span class="cv-date"><a href="https://github.com/SleepyLGod/agent-memory">Code</a></span></p>
+    <p class="style1">Under review at VLDB 2027</p>
+    <p class="style1 cv-project-description"><span aria-hidden="true">⋄</span>Investigating agent memory as materialized semantic views, with automatically derived incremental maintenance queries that separate memory specifications from maintenance and optimization.</p>
+    <p class="style1"><strong>SDServe: Pipelining Dependent LLM Requests under Agentic Workloads</strong><span class="cv-date"><a href="https://github.com/cuhk-systems/vllm-sd">Code</a></span></p>
+    <p class="style1">Research prototype</p>
+    <p class="style1 cv-project-description"><span aria-hidden="true">⋄</span>Prototyped incremental prompt ingestion in vLLM to overlap upstream decoding with downstream prefill across dependent agent requests.</p>
+    <p class="style1"><strong>PrediServe: Preemptive LLM Scheduling with Length Prediction</strong><span class="cv-date"><a href="https://github.com/SleepyLGod/eos-predictor">Predictor code</a></span></p>
+    <p class="style1 cv-project-description"><span aria-hidden="true">⋄</span>Explored preemptive LLM scheduling using remaining-generation-length predictions informed by model hidden states and decoding parameters.</p>
     <h2 id='experience'>
         <p class="style2">EXPERIENCE</p>
     </h2>
@@ -200,23 +222,20 @@ sitemap: false
     <p class="style1">AIBrix</p>
     <ul>
         <li>
-            <p class="style1">Selected via ByteDance's &ldquo;Open Source Promotion Plan&rdquo; to drive session-aware enhancements for AIBrix.</p>
+            <p class="style1">Selected for ByteDance's &ldquo;Open Source Promotion Plan&rdquo; to contribute to AIBrix.</p>
         </li>
         <li>
-            <p class="style1">Implemented a session-aware scheduler designed to improve fairness across sessions under agentic workloads.</p>
+            <p class="style1">Contributed session-state management to AIBrix, <a href="https://github.com/vllm-project/aibrix/pull/1353">merged upstream</a> to support session-aware serving.</p>
         </li>
         <li>
-            <p class="style1">Investigating optimizations for online and offline LLM inference.</p>
+            <p class="style1">Built an internal prototype of pull-based scheduling for agentic workloads, combining session-level priorities with capacity-aware dispatch.</p>
         </li>
     </ul>
     <p class="style1"><strong>Research Assistant</strong><span class="cv-date"><em>May 2023 - Aug 2023</em></span></p>
     <p class="style1">Database Group, University of Wisconsin–Madison. <em>Madison, WI, USA (Hybrid)</em></p>
     <ul>
         <li>
-            <p class="style1">Reimplemented and optimized core components of a tile-based lightweight integer compression algorithm on GPUs.</p>
-        </li>
-        <li>
-            <p class="style1">Explored bit-packing techniques for efficient integer compression on GPUs.</p>
+            <p class="style1">Reimplemented and optimized core components of a tile-based lightweight integer compression algorithm on GPUs; explored bit-packing techniques.</p>
         </li>
     </ul>
     <p class="style1"><strong>Research Assistant</strong><span class="cv-date"><em>Jun 2022 - Apr 2023</em></span></p>
@@ -232,11 +251,10 @@ sitemap: false
                 (1.53x) and accuracy.</p>
         </li>
         <li>
-            <p class="style1">Developed an efficient arbitrage system for the "Lasagne" strategy and the related paper.</p>
+            <p class="style1">Developed the Lasagne arbitrage system and contributed to the associated paper. <a href="https://ieeexplore.ieee.org/document/10990027">[Paper]</a> <a href="https://github.com/JumboArbitrage/arbitrage-public">[Code]</a></p>
         </li>
         <li>
-            <p class="style1">Led a &quot;XETH&quot; project: An open-source platform for Ethereum data intelligence
-                analysis and management.</p>
+            <p class="style1">Led XETH, an open-source platform for Ethereum data intelligence analysis and management.</p>
         </li>
     </ul>
     <p class="style1"><strong>Research Intern</strong><span class="cv-date"><em>Jan 2022 - Feb 2022 &amp; Jul 2022
@@ -246,7 +264,7 @@ sitemap: false
     </p>
     <ul>
         <li>
-            <p class="style1">Participated in the Talent Plan of PingCAP Inc. and completed the TinyKV project.</p>
+            <p class="style1">Completed TinyKV through PingCAP's Talent Plan.</p>
         </li>
         <li>
             <p class="style1">Co-implemented DPU offloading for LSM-tree compaction in RocksDB.</p>
@@ -255,7 +273,7 @@ sitemap: false
             <p class="style1">Implemented an RDMA-based RPC mechanism and co-developed a lightweight client-server file system spanning DPU and CPU components.</p>
         </li>
         <li>
-            <p class="style1">Contributed to ICPP2023 paper "DComp: Efficient Offload of LSM-tree Compaction with Data Processing Units".</p>
+            <p class="style1">Contributed to the DComp paper (ICPP 2023). <a href="https://doi.org/10.1145/3605573.3605633">[Paper]</a></p>
         </li>
         <li>
             <p class="style1">Exploring more efficient and smarter Offload of Compaction with AI (RL &amp; LLM) and new hardware.</p>
@@ -269,9 +287,7 @@ sitemap: false
                 variable-curvature skin.</p>
         </li>
         <li>
-            <p class="style1">Co-invented a perception-fused prosthetic hand, responsible for developing perceptual
-                acquisition modules and
-                perceptual feedback modules.</p>
+            <p class="style1">Co-invented a perception-fused prosthetic hand and developed its sensing and feedback modules.</p>
         </li>
         <li>
             <p class="style1">Developed desktop and web applications tracking and displaying robots' real-time position.</p>
@@ -309,82 +325,52 @@ sitemap: false
     </h2>
     <p class="style1"><strong>Perception-fused prosthetic hand (co-inventor)</strong>, CN Patent CN215192638U
         <span class="cv-date"><em>Issued Dec 17, 2021</em></span></p>
-    <ul>
-        <li>
-            <p class="style1">A fused perceptual prosthetic hand includes perceptual acquisition modules, perceptual
-                feedback modules, and a
-                prosthetic hand body, realizing moving and grabbing through electromyographic signals.</p>
-        </li>
-    </ul>
     <p class="style1"><strong>Grinding head for achieving self-adaptive flexible constant-force grinding function of
             grinding and polishing unit (co-inventor)</strong>, CN Patent CN214923415U <span class="cv-date"><em>Issued Nov 30,
             2021</em></span></p>
-    <ul>
-        <li>
-            <p class="style1">An industrial-grade grinding head for high-quality and high-precision flexible and
-                constant-pressure machining on
-                large variable-curvature workpiece surfaces.</p>
-        </li>
-    </ul>
     <h2 id='society-memberships'>
         <p class="style2">LEADERSHIP &amp; SERVICE</p>
     </h2>
-    <p class="style1"><strong>Team Dian</strong>, Hubei, China</p>
+    <p class="style1"><strong>Team Dian | Leader of Web Group</strong><span class="cv-date"><em>Sep 2021 - Jul 2024</em></span></p>
+    <p class="style1">Hubei, China</p>
     <ul>
-        <li>
-            <p class="style1"><strong>Leader of Web Group</strong><span class="cv-date"><em>Sep 2021 - Jul 2024</em></span></p>
-        </li>
         <li>
             <p class="style1">Led web development projects in collaboration with Alibaba and Intel.</p>
         </li>
         <li>
-            <p class="style1">Built the team wiki and the official website.</p>
+            <p class="style1">Built the team wiki and website.</p>
         </li>
     </ul>
-    <p class="style1"><strong>Team FOCUS</strong>, Hubei, China</p>
+    <p class="style1"><strong>Team FOCUS | Leader</strong><span class="cv-date"><em>Oct 2020 - Jul 2024</em></span></p>
+    <p class="style1">Hubei, China</p>
     <ul>
         <li>
-            <p class="style1"><strong>Leader</strong><span class="cv-date"><em>Oct 2020 - Jul 2024</em></span></p>
+            <p class="style1">Managed team operations and led amphibious robotics and web projects.</p>
         </li>
         <li>
-            <p class="style1">Managed day-to-day team operations.</p>
-        </li>
-        <li>
-            <p class="style1">Led projects about amphibious robots and the web.</p>
-        </li>
-        <li>
-            <p class="style1">Co-led the Preparation for the 17th &quot;Challenge Cup&quot; National Competition.</p>
+            <p class="style1">Co-led preparations for the 17th &quot;Challenge Cup&quot; National Competition.</p>
         </li>
 
     </ul>
-    <p class="style1"><strong>Team STAR</strong>, Hubei, China</p>
+    <p class="style1"><strong>Team STAR | Member</strong><span class="cv-date"><em>Sep 2021 - Jul 2024</em></span></p>
+    <p class="style1">Hubei, China</p>
     <ul>
-        <li>
-            <p class="style1"><strong>Member</strong><span class="cv-date"><em>Sep 2021 - Jul 2024</em></span></p>
-        </li>
         <li>
             <p class="style1">Researched databases and distributed key-value storage with PingCAP Inc.</p>
         </li>
 
     </ul>
     <p class="style1"><strong>Organization Department of The School Youth Committee</strong>, Hubei, China</p>
+    <p class="style1"><strong>Assistant of the Comprehensive Management Office</strong><span class="cv-date"><em>Oct 2020 - Jul 2021</em></span></p>
     <ul>
-        <li>
-            <p class="style1"><strong>Assistant of the Comprehensive Management Office</strong>
-                <span class="cv-date"><em>Oct 2020 - Jul 2021</em></span></p>
-        </li>
         <li>
             <p class="style1">Volunteered to support public spaces and underrepresented groups.</p>
         </li>
         <li>
-            <p class="style1">Organized large-scale conferences and cultural and sports activities.</p>
+            <p class="style1">Organized conferences, cultural and sports events, and coordinated cross-department activities.</p>
         </li>
         <li>
-            <p class="style1">Coordinated the work of departments of the committee.</p>
-        </li>
-        <li>
-            <p class="style1">Participated in social practice activities including high-school presentations and the &quot;Three Rural
-                Areas&quot; Social Practice, gaining the prize of <strong>School Excellent Practice Individual</strong> in July 2021.</p>
+            <p class="style1">Participated in high-school outreach and &quot;Three Rural Areas&quot; activities; received the <strong>School Excellent Practice Individual</strong> award (July 2021).</p>
         </li>
     </ul>
 
@@ -392,7 +378,7 @@ sitemap: false
         <p class="style2">SKILLS &amp; LANGUAGES</p>
     </h2>
     <p class="style1"><strong>⋄</strong> <strong>Programming:</strong> Python, C++, C, Go, Java, JavaScript, Solidity, SQL, x86 Assembly</p>
-    <p class="style1"><strong>⋄</strong> <strong>AI Systems:</strong> vLLM, SGLang, AIBrix, AutoGen</p>
+    <p class="style1"><strong>⋄</strong> <strong>AI-Related:</strong> vLLM, SGLang, AIBrix, AutoGen, LangGraph</p>
     <p class="style1"><strong>⋄</strong> <strong>Data Processing:</strong> PostgreSQL, DuckDB, TiDB, Apache Flink</p>
     <p class="style1"><strong>⋄</strong> <strong>Languages:</strong> Mandarin Chinese (native), English (fluent)</p>
     </main>
