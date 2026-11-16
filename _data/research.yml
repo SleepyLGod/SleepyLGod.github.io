@@ -1,4 +1,4 @@
-- title: "Agent Memory: Declarative Memory Maintenance"
+- title: "Declarative Long-Horizon Agent Memory Maintenance"
   image: /images/research/agent-memory.svg
   width: 907
   height: 401
@@ -28,7 +28,7 @@
     - label: Code
       url: https://github.com/vllm-project/aibrix
 
-- title: "SDServe: Pipelined Agent Workflows"
+- title: "SDServe: Pipelining Dependent LLM Requests under Agentic Workloads"
   image: /images/research/sdserve.png
   width: 1672
   height: 941
@@ -42,7 +42,7 @@
     - label: Code
       url: https://github.com/cuhk-systems/vllm-sd
 
-- title: "PrediServe: Prediction-Guided LLM Scheduling"
+- title: "PrediServe: Preemptive LLM Scheduling with Length Prediction"
   image: /images/research/prediserve.png
   width: 2428
   height: 922
