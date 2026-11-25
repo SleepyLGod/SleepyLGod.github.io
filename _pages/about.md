@@ -2,7 +2,7 @@
 permalink: /
 title: "Biography"
 seo_title: "LU HAODONG"
-excerpt: "PhD student working on agentic AI systems, semantic data processing, and LLM infrastructure."
+excerpt: "PhD candidate working on agentic AI systems, semantic data processing, and LLM infrastructure."
 author_profile: true
 redirect_from: 
   - /about/
@@ -10,7 +10,7 @@ redirect_from:
 ---
 <div class="home-page" markdown="1">
 
-I am a PhD student in the Department of Computer Science and Engineering at the Chinese University of Hong Kong, advised by Prof. [Eric Lo](https://www.cse.cuhk.edu.hk/~ericlo/).
+I am a PhD candidate in the Department of Computer Science and Engineering at the Chinese University of Hong Kong, advised by Prof. [Eric Lo](https://www.cse.cuhk.edu.hk/~ericlo/).
 
 My current research focuses on **agentic AI systems**, with an emphasis on enabling reliable semantic data processing at scale. I also work on **LLM infrastructure**, particularly agent-aware serving through scheduling and KV cache management.
 

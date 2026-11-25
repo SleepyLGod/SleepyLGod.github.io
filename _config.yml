@@ -11,7 +11,7 @@ title                    : "LU HAODONG"
 masthead_title           : "A thing of beauty is a joy for ever."
 title_separator          : "-"
 name                     : &name "LU HAODONG"
-description              : &description "PhD student working on agentic AI systems, semantic data processing, and LLM infrastructure."
+description              : &description "PhD candidate working on agentic AI systems, semantic data processing, and LLM infrastructure."
 url                      : https://sleepylgod.github.io # https://sleepylgod.github.io  OR  http://localhost:4000/  the base hostname & protocol for your site 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "SleepyLGod/SleepyLGod.github.io"
@@ -84,7 +84,7 @@ author:
   name             : "LU HAODONG"
   name_zh          : "路昊東"
   avatar           : "profile-photo.jpg" #"ProfilePicturePhoto.png"
-  bio              : "PhD Student | Software Engineer | Agentic AI Systems, LLM Infrastructure, DBMS Enthusiast"
+  bio              : "PhD Candidate | Software Engineer | Agentic AI Systems, LLM Infrastructure, DBMS Enthusiast"
   location         : "Hong Kong SAR"
   employer         :
   blog             : "https://rookiedong.gitbook.io/notes/"
