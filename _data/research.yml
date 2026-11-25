@@ -21,23 +21,25 @@
   status: "Upstream contribution / Experimental scheduling"
   description: >-
     Developed session tracking and prototyped pull-based scheduling for agentic
-    workloads in AIBrix, combining session-level priorities with capacity-aware
-    dispatch. Session-state management was merged upstream; the scheduling prototype
-    remains an internal exploration.
+    workloads in the AIBrix gateway. Session tracking was merged upstream. In the
+    internal prototype, available serving capacity determines when to dispatch,
+    session priority determines which request goes next, and the existing load
+    balancer selects the replica.
   links:
     - label: Code
       url: https://github.com/vllm-project/aibrix
 
 - title: "SDServe: Pipelining Dependent LLM Requests under Agentic Workloads"
-  image: /images/research/sdserve.png
-  width: 1672
-  height: 941
-  alt: "Sequential versus pipelined execution of two dependent agent requests, overlapping upstream decoding with downstream incremental prefill."
+  image: /images/research/sdserve.svg
+  width: 724
+  height: 330
+  alt: "Request 2 prefills its fixed prefix and each streamed chunk as it becomes available, but decodes only after the final chunk and suffix."
   status: "Research prototype / On hold"
   description: >-
-    Explored overlapping upstream decoding with downstream prefill in dependent
-    LLM calls. The vLLM-based prototype accepts incremental prompt input, allowing
-    downstream computation to begin before upstream generation completes.
+    SDServe pipelines dependent LLM calls in agentic workflows by overlapping
+    upstream decoding with downstream prefill. An AutoGen adapter streams
+    intermediate output to a modified vLLM engine, which prefills incoming
+    chunks but defers decoding until the downstream prompt is complete.
   links:
     - label: Code
       url: https://github.com/cuhk-systems/vllm-sd
@@ -49,9 +51,10 @@
   alt: "PrediServe architecture: length predictors guide request ordering and batch construction, with feedback from model execution."
   status: "Research prototype / Predictor code available"
   description: >-
-    Explored preemptive LLM scheduling guided by remaining-generation-length
-    predictions. The predictor combines model hidden states with decoding
-    parameters to account for variation across generation settings.
+    PrediServe uses model hidden states and decoding parameters to predict each
+    request's remaining generation length. A preemptive scheduler in vLLM uses
+    these predictions to approximate shortest remaining time first (SRTF),
+    giving priority to requests in shorter predicted-length bands.
   links:
     - label: Predictor code
       url: https://github.com/SleepyLGod/eos-predictor

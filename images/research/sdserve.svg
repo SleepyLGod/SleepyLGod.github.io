@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="724" height="330" viewBox="0 0 724 330" role="img" aria-labelledby="title desc">
+  <title id="title">SDServe: sequential and pipelined execution</title>
+  <desc id="desc">Time runs left to right. In sequential execution, request 2 waits for request 1 before prefilling its prompt. In pipelined execution, it can prefill its prefix and each available chunk early. It starts decoding only after receiving the last chunk and prefilling the suffix. Bar lengths are illustrative.</desc>
+  <rect width="724" height="330" fill="white"/>
+  <g font-family="Palatino, Georgia, serif" fill="#20252b">
+    <g font-size="25" font-weight="bold" fill="#522d6d">
+      <text x="18" y="34">Sequential</text>
+      <text x="18" y="199">Pipelined</text>
+    </g>
+    <g font-size="18" font-weight="bold">
+      <text x="18" y="78">Agent Request 1</text>
+      <text x="18" y="124">Agent Request 2</text>
+      <text x="18" y="243">Agent Request 1</text>
+      <text x="18" y="289">Agent Request 2</text>
+    </g>
+    <g fill="#315f9c">
+      <rect x="158" y="54" width="266" height="36"/>
+      <rect x="158" y="219" width="88" height="36"/>
+      <rect x="247" y="219" width="88" height="36"/>
+      <rect x="336" y="219" width="88" height="36"/>
+    </g>
+    <g fill="#286759">
+      <rect x="451" y="100" width="186" height="36"/>
+      <rect x="162" y="265" width="60" height="36"/>
+      <rect x="247" y="265" width="41" height="36"/>
+      <rect x="336" y="265" width="41" height="36"/>
+      <rect x="425" y="265" width="41" height="36"/>
+      <rect x="471" y="265" width="59" height="36"/>
+    </g>
+    <g fill="#3b424b">
+      <rect x="638" y="100" width="68" height="36"/>
+      <rect x="531" y="265" width="79" height="36"/>
+    </g>
+    <g fill="white" text-anchor="middle" font-size="17">
+      <text x="291" y="78">Decode</text>
+      <text x="544" y="124" font-size="15">Prefill: prefix, chunks, suffix</text>
+      <text x="672" y="124">Decode</text>
+      <text x="202" y="243">Decode 1</text>
+      <text x="291" y="243">Decode 2</text>
+      <text x="380" y="243">Decode 3</text>
+      <text x="192" y="289">Prefix</text>
+      <text x="267.5" y="289">1</text>
+      <text x="356.5" y="289">2</text>
+      <text x="445.5" y="289">3</text>
+      <text x="500.5" y="289">Suffix</text>
+      <text x="570.5" y="289">Decode</text>
+    </g>
+  </g>
+</svg>
