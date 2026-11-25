@@ -205,12 +205,12 @@ sitemap: false
     </h2>
     <p class="style1"><strong>Declarative Long-Horizon Agent Memory Maintenance</strong><span class="cv-date"><a href="https://github.com/SleepyLGod/agent-memory">Code</a></span></p>
     <p class="style1">Under review at VLDB 2027</p>
-    <p class="style1 cv-project-description"><span aria-hidden="true">⋄</span>Investigating agent memory as materialized semantic views, with automatically derived incremental maintenance queries that separate memory specifications from maintenance and optimization.</p>
+    <p class="style1 cv-project-description"><span aria-hidden="true">⋄</span>Modeled agent memory as materialized semantic views over interaction histories and developed a framework that automatically derived incremental maintenance queries from those view definitions.</p>
     <p class="style1"><strong>SDServe: Pipelining Dependent LLM Requests under Agentic Workloads</strong><span class="cv-date"><a href="https://github.com/cuhk-systems/vllm-sd">Code</a></span></p>
     <p class="style1">Research prototype</p>
-    <p class="style1 cv-project-description"><span aria-hidden="true">⋄</span>Prototyped incremental prompt ingestion in vLLM to overlap upstream decoding with downstream prefill across dependent agent requests.</p>
+    <p class="style1 cv-project-description"><span aria-hidden="true">⋄</span>Built an AutoGen adapter to stream intermediate outputs between dependent LLM calls and extended vLLM to prefill the downstream prompt before the upstream call finishes.</p>
     <p class="style1"><strong>PrediServe: Preemptive LLM Scheduling with Length Prediction</strong><span class="cv-date"><a href="https://github.com/SleepyLGod/eos-predictor">Predictor code</a></span></p>
-    <p class="style1 cv-project-description"><span aria-hidden="true">⋄</span>Explored preemptive LLM scheduling using remaining-generation-length predictions informed by model hidden states and decoding parameters.</p>
+    <p class="style1 cv-project-description"><span aria-hidden="true">⋄</span>Implemented preemptive LLM scheduling in vLLM using remaining-length predictions informed by model hidden states and decoding parameters.</p>
     <h2 id='experience'>
         <p class="style2">EXPERIENCE</p>
     </h2>
@@ -224,7 +224,7 @@ sitemap: false
             <p class="style1">Contributed session-state management to AIBrix, <a href="https://github.com/vllm-project/aibrix/pull/1353">merged upstream</a> to support session-aware serving.</p>
         </li>
         <li>
-            <p class="style1">Built an internal prototype of pull-based scheduling for agentic workloads, combining session-level priorities with capacity-aware dispatch.</p>
+            <p class="style1">Prototyped a pull-based scheduler in the AIBrix gateway that ranks pending requests by session service and wait time and dispatches them as replicas gain capacity.</p>
         </li>
     </ul>
     <p class="style1"><strong>Research Assistant</strong><span class="cv-date"><em>May 2023 - Aug 2023</em></span></p>
